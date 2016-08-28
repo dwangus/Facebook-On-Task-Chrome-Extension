@@ -1,0 +1,77 @@
+Hosting:
+	- https://developer.chrome.com/extensions/hosting
+
+https://developer.chrome.com/extensions/browserAction
+http://stackoverflow.com/questions/22724720/enable-disable-chrome-extension-content-script-with-browseraction
+https://developer.chrome.com/extensions/messaging#simple
+https://src.chromium.org/viewvc/chrome/trunk/src/chrome/common/extensions/docs/examples/api/browserAction/make_page_red/
+	- Changing icon upon click
+	- Disabling the content script on facebook.com from the click
+	- An example showcasing how to write a background-script and the json file to call the built-in Chrome Extension methods
+		- (More examples: https://developer.chrome.com/extensions/samples )
+	- (Optional: depending on a different implementation than I'm planning)
+		- http://stackoverflow.com/questions/20465530/stopping-content-script-in-chrome-extension
+		- https://developer.chrome.com/extensions/content_scripts#pi
+		- http://ux.stackexchange.com/questions/54706/designing-the-ui-of-a-chrome-extensions-popup
+		
+https://developer.chrome.com/extensions/content_scripts
+http://stackoverflow.com/questions/16334054/inject-html-into-a-page-from-a-content-script
+http://www.w3schools.com/bootstrap/bootstrap_modal.asp
+http://v4-alpha.getbootstrap.com/components/modal/#via-javascript
+	- How to inject the content script into facebook.com
+	- Loading html from server
+	- The actual modal window pop-up plug-in that interacts with facebook.com
+	- Toggling the modal window using javascript
+	
+https://developer.chrome.com/extensions/manifest
+https://developer.chrome.com/extensions/manifest/icons
+http://stackoverflow.com/questions/29946401/why-is-this-chrome-browseraction-seticon-method-not-working
+https://developer.chrome.com/extensions/overview#files
+https://developer.chrome.com/extensions/declare_permissions
+	- Manifest file format and options
+	- Icons and pixel sizes in the manifest
+	- Referring to files in your project directory from the manifest file
+	- Permissions for extension
+		
+https://developer.chrome.com/extensions/devguide
+https://developer.chrome.com/extensions/tut_debugging
+https://developer.chrome.com/extensions/api_index
+	- Etc. Notes (Overall guide, debugging, possible APIs)
+
+Isolating CSS:
+	- What I went with:
+		- https://github.com/VodkaBears/Remodal
+		- http://lesscss.org/#
+			- (also of note: https://github.com/jimmysawczuk/inline-less )
+		- https://formden.com/blog/isolate-bootstrap
+		- (may come in handy in the future: https://css-tricks.com/saving-the-day-with-scoped-css/ )
+	- Approaches that I also thought about:
+		- http://anderspitman.com/blog/2014/08/04/chrome-extension-content-script-stylesheet-isolation/
+		- https://elements.polymer-project.org/
+		- https://github.com/Polymer/polymer
+		- https://www.polymer-project.org/1.0/docs/tools/polymer-cli#element
+		- https://www.polymer-project.org/1.0/start/first-element/step-5
+		- https://egghead.io/courses/creating-custom-web-elements-with-polymer
+		- http://stackoverflow.com/questions/25048359/javascript-within-shadow-dom-best-practices
+		- http://stackoverflow.com/questions/30022350/registering-a-custom-element-from-a-chrome-extension
+		- http://stackoverflow.com/questions/35260947/use-polymer-elements-in-chrome-extension
+		- http://japhr.blogspot.com/2014/10/bootstrap-css-with-polymer.html
+		- https://customelements.io/LostInBrittany/polymer-bootstrap/
+		- http://stackoverflow.com/questions/26805409/using-bootstrap-in-polymer-element
+
+		
+http://stackoverflow.com/questions/5033650/how-to-dynamically-remove-a-stylesheet-from-the-current-page
+http://stackoverflow.com/questions/18422223/bootstrap-3-modal-vertical-position-center
+http://stackoverflow.com/questions/1403615/use-jquery-to-hide-a-div-when-the-user-clicks-outside-of-it
+http://stackoverflow.com/questions/14013924/create-a-dimmed-background-on-click
+http://www.w3schools.com/jquery/jquery_fade.asp
+http://stackoverflow.com/questions/17088160/using-just-bootstrap-modal
+https://www.sitepoint.com/14-jquery-modal-dialog-boxes/
+
+bootstrap-3.3.7-dist/js/bootstrap.js
+vs.
+js/bootstrap-fbOnTask.js
+
+bootstrap-3.3.7-dist/css/bootstrap.css
+vs.
+css/fbOnTaskModal.css

@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook On-Task",
+  "version": "1.0",
+  "description": "Keeps you on-task when visiting Facebook's home-page!",
+  
+  "content_scripts": [
+	{
+		"matches": ["https://www.facebook.com/"],
+		"css": ["remodal/src/remodal.css", "remodal/src/remodal-default-theme.css", "css/fbOnTaskModal.css", "css/jquery-ui.css", "css/custom.css"],
+		"js": ["jquery/jquery-3.1.0.js", "jquery/jquery-ui.js", "remodal/src/remodal.js", "js/myscript.js"]
+	},
+	{
+		"matches": ["https://www.facebook.com/*"],
+		"css": ["remodal/src/remodal.css", "remodal/src/remodal-default-theme.css", "css/fbOnTaskModal.css", "css/jquery-ui.css", "css/custom.css"],
+		"js": ["jquery/jquery-3.1.0.js", "jquery/jquery-ui.js", "remodal/src/remodal.js", "js/homeScript.js"]
+	}
+  ],
+  
+  "web_accessible_resources": [
+    "templates/*"
+  ],
+  
+  "background": {
+	"scripts": ["js/activate.js"],
+	"persistent": false
+  },
+
+  "browser_action": {
+	"default_icon": {
+		"16": "icons/fot-icon-16.png",
+		"19": "icons/fot-icon-19.png",
+		"32": "icons/fot-icon-32.png",
+		"38": "icons/fot-icon-38.png",
+		"64": "icons/fot-icon-64.png",
+		"128": "icons/fot-icon-128.png"
+	},
+	"default_title": "Click to deactivate Facebook On-Task"
+  },
+  
+  "permissions": [
+    "activeTab"
+  ]
+}

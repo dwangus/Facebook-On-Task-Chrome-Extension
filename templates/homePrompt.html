@@ -1,0 +1,72 @@
+<!--2: Facebook On-Task Modal Window Prompt upon 'Home'-button press -- Start:...-->
+<div id="fbOnTask_Home" class="remodal fbOnTaskModal" data-remodal-id="modal" style="background-color: linen">
+	<button data-remodal-action="close" class="remodal-close"></button>
+	<h1 id="intro_fbOnTask_Home" class="text-center page-header" style="color:white;text-shadow:-3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;"><b>What did you come here to do?</b></h1>
+	<div id="searchPrompt_fbOnTask_Home" style="display:none">
+		<div class="row text-center">
+			<div id="searchInputBox_fbOnTask_Home" class="form-group">
+				<input type="text" class="form-control" id="searchText_fbOnTask_Home" value="">
+			</div>
+		</div><br>
+		<div class="row text-center">
+			<form id="searchCategory_fbOnTask_Home">
+				<label class="radio-inline active"><input type="radio" name="query_fbOnTask_Home" value="people" checked=""><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Person</i></font></b></label>
+				<label class="radio-inline"><input type="radio" name="query_fbOnTask_Home" value="pages"><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Page</i></font></b></label>
+				<label class="radio-inline"><input type="radio" name="query_fbOnTask_Home" value="groups"><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Group</i></font></b></label>
+				<label class="radio-inline"><input type="radio" name="query_fbOnTask_Home" value="events"><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Event</i></font></b></label>
+				<label class="radio-inline"><input type="radio" name="query_fbOnTask_Home" value="top"><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Etc.</i></font></b></label>
+			</form>
+		</div>
+		<br>
+		<div class="row text-center">
+			<button id="searchSubmit_fbOnTask_Home" type="button" class="btn btn-primary"><b>Search!</b></button>
+		</div>
+	</div>
+	<div id="notificationsPrompt_fbOnTask_Home" style="display:none">
+		<div class="row text-center">
+			<form id="notificationsCategory_fbOnTask_Home">
+				<label class="radio-inline active"><input type="radio" name="notifs_fbOnTask_Home" value="notifications" checked=""><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Notifications</i></font></b></label>
+				<label class="radio-inline"><input type="radio" name="notifs_fbOnTask_Home" value="messages"><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Messages</i></font></b></label>
+				<label class="radio-inline"><input type="radio" name="notifs_fbOnTask_Home" value="friends/requests"><b><font color=#3b5998 style="text-shadow:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;"><i>Friend Requests</i></font></b></label>
+			</form>
+		</div>
+		<br>
+		<div class="row text-center">
+			<button id="notificationsSubmit_fbOnTask_Home" type="button" class="btn btn-danger"><b>Submit Choice</b></button>
+		</div>
+	</div>
+	<div id="chatPrompt_fbOnTask_Home" style="display:none">
+		<br>
+		<div class="row text-center">
+			<div id="chatInputBox_fbOnTask_Home" class="form-group">
+				<input type="text" class="form-control" id="chatText_fbOnTask_Home" value="">
+			</div>
+		</div><br>
+		<div class="row text-center">
+			<button id="chatSubmit_fbOnTask_Home" type="button" class="btn btn-success"><b>Let's see...</b></button>
+		</div>
+	</div>
+	<div id="initial_fbOnTask_Home">
+		<div class="row text-center">
+			<button id="search_fbOnTask_Home" type="button" class="btn btn-primary"><b>Search for someone/something</b></button>
+		</div><br>
+		<div class="row text-center">
+			<button id="chat_fbOnTask_Home" type="button" class="btn btn-success"><b>Chat someone up</b></button>
+		</div><br>
+		<div class="row text-center">
+			<button id="birthday_fbOnTask_Home" type="button" class="btn btn-info"><b>Say happy birthday!</b></button>
+		</div><br>
+		<div class="row text-center">
+			<button id="status_fbOnTask_Home" type="button" class="btn btn-warning"><b>Post a dank new status</b></button>
+		</div><br>
+		<div class="row text-center">
+			<button id="notifications_fbOnTask_Home" type="button" class="btn btn-danger"><b>Look at my precious notifications</b></button>
+		</div><br><br><br>
+		<div class="row text-center">
+			<button id="chill_fbOnTask_Home" data-remodal-action="close" type="button" class="btn-default btn-lg"><b>Straight chillin' rn, brah!</b></button>
+		</div>
+	</div>
+	<br><br>
+	<h6 class="text-center"><i>Press on the "Facebook On-Task" icon in the toolbar to deactivate this prompt</i></h6>
+</div>
+<!--... 2: Modal Window Prompt End-->
